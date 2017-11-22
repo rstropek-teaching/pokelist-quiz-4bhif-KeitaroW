@@ -4,7 +4,7 @@
   "description": "In this exercise, you have to implement a website that uses a RESTful Web API in the background. You have to create the website from scratch without any initial templates to build on. Feel free to use prior homeworks or samples from the course material as a starting point.",
   "main": "index.js",
   "scripts": {
-    "copy-bootstrap": "cp ./node_modules/bootstrap/dist/css/bootstrap.css ./ && cp ./node_modules/bootstrap/dist/js/bootstrap.js ./",
+    "copy-bootstrap": "cp ./node_modules/bootstrap/dist/css/bootstrap.css ./ && cp ./node_modules/bootstrap/dist/js/bootstrap.js ./ && cp ./node_modules/bootstrap-table/dist/bootstrap-table.js ./ && cp ./node_modules/bootstrap-table/dist/bootstrap-table.css ./",
     "copy-jquery": "cp ./node_modules/jquery/dist/jquery.js ./",
     "tsc": "./node_modules/.bin/tsc.cmd",
     "start": "browser-sync start --server --files='*.html,*.js,*.css'"
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "bootstrap-table": "^1.11.2",
     "jquery": "^3.2.1"
   }
 }
